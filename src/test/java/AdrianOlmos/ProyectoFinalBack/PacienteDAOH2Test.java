@@ -59,7 +59,7 @@ public class PacienteDAOH2Test {
         ps.guardarPaciente(paciente1);
         ps.guardarPaciente(pacienteX);
 
-        ps.actualizarPaciente(pacienteX, paciente1.getDNI());
+        ps.actualizarPaciente(pacienteX);
     }
 
     @org.junit.jupiter.api.Test

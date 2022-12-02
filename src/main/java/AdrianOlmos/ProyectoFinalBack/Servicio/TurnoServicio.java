@@ -31,8 +31,8 @@ public class TurnoServicio {
         DAOEspecifico.eliminar(ID);
     }
 
-    public void actualizarTurno(Turno turno, int ID) throws SQLException {
-        DAOEspecifico.actualizar(turno, ID);
+    public Turno actualizarTurno(Turno turno) throws SQLException {
+        return (Turno) DAOEspecifico.actualizar(turno);
     }
 
     public List listarTurnos() throws SQLException {

@@ -119,7 +119,7 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
 
     //--------------------------------TESTEADO FUNCIONAL------------------------------
     @Override
-    public void actualizar(Odontologo odontologo, int id) throws SQLException {
+    public Odontologo actualizar(Odontologo odontologo) throws SQLException {
         try{
             conexion.conectar();
             consulta = conexion.conn.prepareStatement(update);
@@ -127,15 +127,16 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
             consulta.setString(2, odontologo.getApellido());
             consulta.setString(3, odontologo.getUser());
             consulta.setString(4, odontologo.getPassword());
-            consulta.setInt(5, id);
+            consulta.setInt(5, odontologo.getMatricula());
             consulta.executeUpdate();
-            logger.info("se actualizó el odontologo " + id + " a " + odontologo);
+            logger.info("se actualizó el odontologo " + odontologo.getMatricula() + " a " + odontologo);
         }catch (Exception e){
             logger.error("No se pudo actualizar el odontologo, ", e);
         }finally {
             consulta.close();
             conexion.desconectar();
         }
+        return odontologo;
     }
     //--------------------------------------------------------------------------------
 

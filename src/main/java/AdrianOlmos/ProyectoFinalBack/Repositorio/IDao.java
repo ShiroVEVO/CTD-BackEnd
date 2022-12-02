@@ -9,6 +9,6 @@ public interface IDao<T> {//extends CrudRepository<T,Integer> {
     public T listar(int id) throws SQLException;
     public T agregar(T t) throws SQLException;
     public void eliminar(int id) throws SQLException;
-    public void actualizar(T t, int id) throws SQLException;
+    public T actualizar(T t) throws SQLException;
     public List<T> listarTodos() throws SQLException;
 }

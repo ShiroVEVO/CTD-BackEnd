@@ -25,16 +25,17 @@ public class OdontologoServicio {
         return (Odontologo) DAOEspecifico.listar(matriculaOdontologo);
     }
 
-    public void guardarOdontologo (Odontologo odontologo) throws SQLException {
+    public Odontologo guardarOdontologo (Odontologo odontologo) throws SQLException {
         DAOEspecifico.agregar(odontologo);
+        return odontologo;
     }
 
     public void eliminarOdontologo (int matriculaOdontologo) throws SQLException {
         DAOEspecifico.eliminar(matriculaOdontologo);
     }
 
-    public void actualizarOdontologo(Odontologo odontologo, int id) throws SQLException {
-        DAOEspecifico.actualizar(odontologo, id);
+    public Odontologo actualizarOdontologo(Odontologo odontologo) throws SQLException {
+        return (Odontologo) DAOEspecifico.actualizar(odontologo);
     }
 
     public List<Odontologo> listarOdontologos() throws SQLException {

@@ -61,7 +61,7 @@ public class OdontologoDAOH2Test {
         os.guardarOdontologo(odontologo1);
         os.guardarOdontologo(odontologo2);
 
-        os.actualizarOdontologo(odontologo2, odontologo1.getMatricula());
+        os.actualizarOdontologo(odontologo2);
     }
 
     @org.junit.jupiter.api.Test

@@ -262,3 +262,252 @@ java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStateme
 [2022-12-02 11:10:21] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='VALENTINA', apellido='TEJADA', matricula=100203}
 [2022-12-02 11:10:21] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='USSS', password='PASS', nombre='adrian', apellido='olmos', matricula=123456}
 [2022-12-02 11:10:21] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 11:54:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-02 11:54:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-02 11:54:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-02 11:54:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='VALENTINA', apellido='TEJADA', matricula=100203}
+[2022-12-02 11:54:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='USSS', password='PASS', nombre='adrian', apellido='olmos', matricula=123456}
+[2022-12-02 11:54:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 12:05:46] [ERROR] [OdontologoDAOH2:165] Se presento un error al listar odontologos, 
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "this.conexion.conn" is null
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.OdontologoDAOH2.listarTodos(OdontologoDAOH2.java:150)
+	at AdrianOlmos.ProyectoFinalBack.Servicio.OdontologoServicio.listarOdontologos(OdontologoServicio.java:42)
+	at AdrianOlmos.ProyectoFinalBack.Controlador.OdontologoControlador.listarOdontologos(OdontologoControlador.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-12-02 12:06:09] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-02 12:06:09] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-02 12:06:09] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-02 12:06:09] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='VALENTINA', apellido='TEJADA', matricula=100203}
+[2022-12-02 12:06:09] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='USSS', password='PASS', nombre='adrian', apellido='olmos', matricula=123456}
+[2022-12-02 12:06:09] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 12:06:20] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-02 12:06:20] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-02 12:06:20] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-02 12:06:20] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='VALENTINA', apellido='TEJADA', matricula=100203}
+[2022-12-02 12:06:20] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='USSS', password='PASS', nombre='adrian', apellido='olmos', matricula=123456}
+[2022-12-02 12:06:20] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 12:07:39] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 123456
+[2022-12-02 12:09:39] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 123456
+[2022-12-02 12:10:50] [INFO ] [PacienteDAOH2:170] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-02 12:27:33] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-02 12:27:33] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-02 12:27:33] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-02 12:27:33] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='VALENTINA', apellido='TEJADA', matricula=100203}
+[2022-12-02 12:27:33] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='USSS', password='PASS', nombre='adrian', apellido='olmos', matricula=123456}
+[2022-12-02 12:27:33] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 12:28:10] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 123456
+[2022-12-02 12:28:10] [INFO ] [OdontologoDAOH2:111] Se eliminó el odontologo con matricula: 123456
+[2022-12-02 12:51:47] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 100203
+[2022-12-02 12:51:47] [INFO ] [OdontologoDAOH2:132] se actualizó el odontologo 100203 a Odontologo{user='BALEN', password='CIANA', nombre='ACTUALIZADOOO', apellido='ACTUALIZADO', matricula=100203}
+[2022-12-02 12:57:15] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 100203
+[2022-12-02 12:57:15] [INFO ] [OdontologoDAOH2:132] se actualizó el odontologo 100203 a Odontologo{user='BALEN', password='CIANA', nombre='ACTUALIZADOOO', apellido='ACTUALIZADO', matricula=100203}
+[2022-12-02 12:58:02] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 100203
+[2022-12-02 12:58:02] [INFO ] [OdontologoDAOH2:132] se actualizó el odontologo 100203 a Odontologo{user='BALEN', password='CIANA', nombre='ACTUALIZADOOO', apellido='ACTUALIZADO', matricula=100203}
+[2022-12-02 12:58:27] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 100203
+[2022-12-02 12:58:27] [INFO ] [OdontologoDAOH2:132] se actualizó el odontologo 100203 a Odontologo{user='BALEN', password='CIANA', nombre='PRUEBAaCT', apellido='ACTUALIZADO', matricula=100203}
+[2022-12-02 12:59:56] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-02 13:00:01] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-02 13:00:08] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-02 13:00:08] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-02 13:00:08] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-02 13:00:08] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='PRUEBAaCT', apellido='ACTUALIZADO', matricula=100203}
+[2022-12-02 13:00:08] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 13:04:41] [INFO ] [PacienteDAOH2:170] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-02 13:06:52] [INFO ] [PacienteDAOH2:96] Se guardo el paciente:Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=65465465, fechaAlta=10/10/1010}
+[2022-12-02 13:07:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-02 13:07:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-02 13:07:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-02 13:07:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='BALEN', password='CIANA', nombre='PRUEBAaCT', apellido='ACTUALIZADO', matricula=100203}
+[2022-12-02 13:07:23] [INFO ] [OdontologoDAOH2:161] Se trajo un odontologo: Odontologo{user='UXXX', password='XYXY', nombre='NAIRDA', apellido='SOMOL', matricula=192939}
+[2022-12-02 13:07:57] [ERROR] [PacienteDAOH2:174] Se presento un error al listar los pacientes, 
+org.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1372)
+	at org.h2.jdbc.JdbcConnection.createStatement(JdbcConnection.java:206)
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.PacienteDAOH2.listarTodos(PacienteDAOH2.java:157)
+	at AdrianOlmos.ProyectoFinalBack.Servicio.PacienteServicio.listarPacientes(PacienteServicio.java:42)
+	at AdrianOlmos.ProyectoFinalBack.Controlador.PacienteControlador.listarPacientes(PacienteControlador.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-12-02 13:08:30] [INFO ] [PacienteDAOH2:170] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-02 13:08:30] [INFO ] [PacienteDAOH2:170] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=65465465, fechaAlta=10/10/1010}
+[2022-12-02 13:15:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-02 13:15:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=65465465, fechaAlta=10/10/1010}
+[2022-12-02 13:15:26] [ERROR] [PacienteDAOH2:99] No se pudo guardar el paciente, 
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.PACIENTE(DNI) ( /* key:0 */ 65465465, 'paciente', 'gonzalez', 'userP2', 'PassP2', 'Un domicilio', '10/10/1010')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.PACIENTE(DNI) ( /* key:0 */ 65465465, 'paciente', 'gonzalez', 'userP2', 'PassP2', 'Un domicilio', '10/10/1010')"; SQL statement:
+INSERT INTO PACIENTE VALUES(?,?,?,?,?,?,?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.PacienteDAOH2.agregar(PacienteDAOH2.java:95)
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.PacienteDAOH2.agregar(PacienteDAOH2.java:17)
+	at AdrianOlmos.ProyectoFinalBack.Servicio.PacienteServicio.guardarPaciente(PacienteServicio.java:28)
+	at AdrianOlmos.ProyectoFinalBack.Controlador.PacienteControlador.guardarPaciente(PacienteControlador.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-12-02 13:16:15] [INFO ] [PacienteDAOH2:96] Se guardo el paciente:Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=11, fechaAlta=10/10/1010}
+[2022-12-02 13:16:24] [INFO ] [PacienteDAOH2:96] Se guardo el paciente:Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=145, fechaAlta=10/10/1010}
+[2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=11, fechaAlta=10/10/1010}
+[2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=145, fechaAlta=10/10/1010}
+[2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=65465465, fechaAlta=10/10/1010}
