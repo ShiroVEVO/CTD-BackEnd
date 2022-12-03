@@ -1,30 +1,24 @@
 package AdrianOlmos.ProyectoFinalBack.Modelo;
 
-import jakarta.persistence.*;
-
 public class Turno {
+    public int numTurno;
+    public Odontologo ondontologo;
+    public Paciente paciente;
 
-    private int ID;
-
-    private Odontologo ondontologo;
-
-    //@Column @OneToOne(mappedBy = "turno") @JsonIgnore
-    private Paciente paciente;
-
-    public Turno(int ID, Odontologo ondontologo, Paciente paciente) {
-        this.ID = ID;
+    public Turno(int numTurno, Odontologo ondontologo, Paciente paciente) {
+        this.numTurno = numTurno;
         this.ondontologo = ondontologo;
         this.paciente = paciente;
     }
 
     //-------------------------------GETTERS & SETTERS---------------------------
 
-    public int getID() {
-        return ID;
+    public int getNumTurno() {
+        return numTurno;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setNumTurno(int numTurno) {
+        this.numTurno = numTurno;
     }
 
     public Odontologo getOndontologo() {
@@ -48,9 +42,9 @@ public class Turno {
     @Override
     public String toString() {
         return "Turno{" +
-                "ID=" + ID +
-                ", ondontologo=" + ondontologo +
-                ", paciente=" + paciente +
+                "numTurno=" + this.getNumTurno() +
+                ", ondontologo=" + this.getOndontologo() +
+                ", paciente=" + this.getPaciente() +
                 '}';
     }
 }

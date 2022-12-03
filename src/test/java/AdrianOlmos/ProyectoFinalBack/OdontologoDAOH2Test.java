@@ -17,10 +17,17 @@ public class OdontologoDAOH2Test {
     }
 
     @org.junit.jupiter.api.Test
+    void agregarOdontologos() throws SQLException {
+        Odontologo odontologo1 = new Odontologo("ROLE_USER","user1", "pass1", "Pablo", "cadenas",001);
+        os.crearTabla();
+        os.guardarOdontologo(odontologo1);
+    }
+
+    @org.junit.jupiter.api.Test
     void listarOdontologos() throws SQLException {
-        Odontologo odontologo1 = new Odontologo("user1", "pass1", "Pablo", "cadenas",001);
-        Odontologo odontologo2 = new Odontologo("user2", "pass2", "Pedro", "naranjas",002);
-        Odontologo odontologo3 = new Odontologo("user3", "pass3", "Armando", "Fierros",003);
+        Odontologo odontologo1 = new Odontologo("ROLE_USER","user1", "pass1", "Pablo", "cadenas",001);
+        Odontologo odontologo2 = new Odontologo("ROLE_USER","user2", "pass2", "Pedro", "naranjas",002);
+        Odontologo odontologo3 = new Odontologo("ROLE_USER","user3", "pass3", "Armando", "Fierros",003);
 
         os.crearTabla();
 
@@ -30,17 +37,10 @@ public class OdontologoDAOH2Test {
     }
 
     @org.junit.jupiter.api.Test
-    void agregarOdontologos() throws SQLException {
-        Odontologo odontologo1 = new Odontologo("user1", "pass1", "Pablo", "cadenas",001);
-        os.crearTabla();
-        os.guardarOdontologo(odontologo1);
-    }
-
-    @org.junit.jupiter.api.Test
     void eliminarOdontologo() throws SQLException {
-        Odontologo odontologo1 = new Odontologo("user1", "pass1", "Pablo", "cadenas",001);
-        Odontologo odontologo2 = new Odontologo("user2", "pass2", "Pedro", "naranjas",002);
-        Odontologo odontologo3 = new Odontologo("user3", "pass3", "Armando", "Fierros",003);
+        Odontologo odontologo1 = new Odontologo("ROLE_USER","user1", "pass1", "Pablo", "cadenas",001);
+        Odontologo odontologo2 = new Odontologo("ROLE_USER","user2", "pass2", "Pedro", "naranjas",002);
+        Odontologo odontologo3 = new Odontologo("ROLE_USER","user3", "pass3", "Armando", "Fierros",003);
 
         os.crearTabla();
 
@@ -51,24 +51,24 @@ public class OdontologoDAOH2Test {
         os.eliminarOdontologo(odontologo2.getMatricula());
     }
 
+
     @org.junit.jupiter.api.Test
     void actualizarOdontologo() throws SQLException {
-        Odontologo odontologo1 = new Odontologo("user1", "pass1", "Pablo", "cadenas",001);
-        Odontologo odontologo2 = new Odontologo("userX","XXX","Actualizado","Actualizado",999);
+        Odontologo odontologo1 = new Odontologo("ROLE_USER","user2", "pass2", "Pedro", "naranjas",002);
+        Odontologo odontologoX = new Odontologo("ROLE_USER","userX","XXX","Actualizado","Actualizado",002);
 
         os.crearTabla();
 
         os.guardarOdontologo(odontologo1);
-        os.guardarOdontologo(odontologo2);
 
-        os.actualizarOdontologo(odontologo2);
+        os.actualizarOdontologo(odontologoX);
     }
 
     @org.junit.jupiter.api.Test
     void listarOdontologo() throws SQLException{
-        Odontologo odontologo1 = new Odontologo("user1", "pass1", "Pablo", "cadenas",001);
-        Odontologo odontologo2 = new Odontologo("user2", "pass2", "Pedro", "naranjas",002);
-        Odontologo odontologo3 = new Odontologo("user3", "pass3", "Armando", "Fierros",003);
+        Odontologo odontologo1 = new Odontologo("ROLE_USER","user1", "pass1", "Pablo", "cadenas",001);
+        Odontologo odontologo2 = new Odontologo("ROLE_USER","user2", "pass2", "Pedro", "naranjas",002);
+        Odontologo odontologo3 = new Odontologo("ROLE_USER","user3", "pass3", "Armando", "Fierros",003);
 
         os.crearTabla();
 

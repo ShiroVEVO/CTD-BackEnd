@@ -3,8 +3,8 @@ package AdrianOlmos.ProyectoFinalBack.Modelo;
 public class Odontologo extends Usuario {
     public int matricula;
 
-    public Odontologo(String u, String p, String n, String a, int m){
-        super(u,p,n,a);
+    public Odontologo(String r, String u, String p, String n, String a, int m){
+        super(r,u,p,n,a);
         this.matricula = m;
     }
 
@@ -23,11 +23,12 @@ public class Odontologo extends Usuario {
     @Override
     public String toString() {
         return "Odontologo{" +
-                "user='" + this.getUser() + '\'' +
-                ", password='" + this.getPassword() + '\'' +
-                ", nombre='" + this.getNombre() + '\'' +
-                ", apellido='" + this.getApellido() + '\'' +
-                ", matricula=" + matricula +
+                "role='" + this.getROLE() +
+                ", user='" + this.getUser() +
+                ", password='" + this.getPassword() +
+                ", nombre='" + this.getNombre() +
+                ", apellido='" + this.getApellido() +
+                ", matricula=" + this.getMatricula() +
                 '}';
     }
 }

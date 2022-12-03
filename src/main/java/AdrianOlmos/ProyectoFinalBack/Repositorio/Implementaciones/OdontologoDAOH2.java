@@ -19,16 +19,16 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
     private Conexion conexion = new Conexion();
     private PreparedStatement consulta = null;
     private static final Logger logger = Logger.getLogger(OdontologoDAOH2.class);
-    private static final String insert = "INSERT INTO ODONTOLOGO VALUES(?,?,?,?,?);";
+    private static final String createTable = "DROP TABLE IF EXISTS ODONTOLOGO;\n"
+            + "CREATE TABLE ODONTOLOGO(NUMMATRICULA INT PRIMARY KEY, ROLE VARCHAR(255), USUARIO VARCHAR(255),"
+            + " PASSWORD VARCHAR(255), NOMBRE VARCHAR(255), APELLIDO VARCHAR (255));";
     private static final String select = "SELECT * FROM ODONTOLOGO;";
     private static final String select_with_id = "SELECT * FROM ODONTOLOGO WHERE NUMMATRICULA = ?";
-    private static final String createTable = "DROP TABLE IF EXISTS ODONTOLOGO;\n"
-            + "CREATE TABLE ODONTOLOGO(NUMMATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(255), "
-            + "APELLIDO VARCHAR (255), USUARIO VARCHAR(255), PASSWORD VARCHAR(255));";
+    private static final String insert = "INSERT INTO ODONTOLOGO VALUES(?,?,?,?,?,?);";
     private static final String delete = "DELETE FROM ODONTOLOGO WHERE NUMMATRICULA = ?;";
-    private static final String update = "UPDATE ODONTOLOGO SET NOMBRE=?, APELLIDO=?, USUARIO=?, PASSWORD=? WHERE NUMMATRICULA = ?;";
+    private static final String update = "UPDATE ODONTOLOGO SET USUARIO=?, PASSWORD=?, NOMBRE=?, APELLIDO=? WHERE NUMMATRICULA = ?;";
 
-    //--------------------------------TESTEADO FUNCIONAL------------------------------
+    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
     @Override
     public void CrearTabla() throws SQLException {
         conexion.conectar();
@@ -36,7 +36,6 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
         try{
             consulta = conexion.conn.createStatement();
             consulta.execute(createTable);
-           //System.out.println("Se creó la tabla");
             logger.info("Se creó la tabla");
         }catch(Exception e){
             logger.error("No se creó la tabla: ", e);
@@ -47,10 +46,10 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
     }
     //--------------------------------------------------------------------------------
 
-    //--------------------------------TESTEADO FUNCIONAL------------------------------
+    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
     @Override//"""Listo"""
     public Odontologo listar(int NumMatricula) throws SQLException {
-        ResultSet resultados;
+        ResultSet resultados = null;
         Odontologo odontologo = null;
         try{
             conexion.conectar();
@@ -59,17 +58,18 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
             resultados = consulta.executeQuery();
             if(resultados.next()){
                 int matri = resultados.getInt(1);
-                String nombre =  resultados.getString(2);
-                String apellido = resultados.getString(3);
-                String user = resultados.getString(4);
-                String password = resultados.getString(5);
-                odontologo = new Odontologo(user,password,nombre, apellido, matri);
+                String role = resultados.getString(2);
+                String user = resultados.getString(3);
+                String password = resultados.getString(4);
+                String nombre = resultados.getString(5);
+                String apellido = resultados.getString(6);
+                odontologo = new Odontologo(role, user,password,nombre, apellido, matri);
                 logger.info("Se trajo el odontologo con matricula: " + matri);
             }
         }catch(Exception e){
-            System.out.println("Un problema: " + e);
             logger.info("Se presento un error al traer el odontologo con matricula " + NumMatricula + " ,", e);
         }finally {
+            resultados.close();
             consulta.close();
             conexion.desconectar();
         }
@@ -77,17 +77,18 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
     }
     //--------------------------------------------------------------------------------
 
-    //--------------------------------TESTEADO FUNCIONAL------------------------------
+    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
     @Override
     public Odontologo agregar(Odontologo odontologo) throws SQLException {
         try{
             conexion.conectar();
             consulta = conexion.conn.prepareStatement(insert);
             consulta.setInt(1,odontologo.getMatricula());
-            consulta.setString(2,odontologo.getNombre());
-            consulta.setString(3,odontologo.getApellido());
-            consulta.setString(4, odontologo.getUser());
-            consulta.setString(5,odontologo.getPassword());
+            consulta.setString(2, odontologo.getROLE());
+            consulta.setString(3, odontologo.getUser());
+            consulta.setString(4,odontologo.getPassword());
+            consulta.setString(5,odontologo.getNombre());
+            consulta.setString(6,odontologo.getApellido());
             consulta.execute();
             logger.info("Se guardo el odontologo:" + odontologo.toString());
         }catch (Exception e){
@@ -100,7 +101,7 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
     }
     //--------------------------------------------------------------------------------
 
-    //--------------------------------TESTEADO FUNCIONAL------------------------------
+    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
     @Override
     public void eliminar(int id) throws SQLException {
         try{
@@ -117,16 +118,16 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
     }
     //--------------------------------------------------------------------------------
 
-    //--------------------------------TESTEADO FUNCIONAL------------------------------
+    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
     @Override
     public Odontologo actualizar(Odontologo odontologo) throws SQLException {
         try{
             conexion.conectar();
             consulta = conexion.conn.prepareStatement(update);
-            consulta.setString(1, odontologo.getNombre());
-            consulta.setString(2, odontologo.getApellido());
-            consulta.setString(3, odontologo.getUser());
-            consulta.setString(4, odontologo.getPassword());
+            consulta.setString(1, odontologo.getUser());
+            consulta.setString(2, odontologo.getPassword());
+            consulta.setString(3, odontologo.getNombre());
+            consulta.setString(4, odontologo.getApellido());
             consulta.setInt(5, odontologo.getMatricula());
             consulta.executeUpdate();
             logger.info("se actualizó el odontologo " + odontologo.getMatricula() + " a " + odontologo);
@@ -140,7 +141,7 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
     }
     //--------------------------------------------------------------------------------
 
-    //--------------------------------TESTEADO FUNCIONAL------------------------------
+    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
     @Override
     public List<Odontologo> listarTodos() throws SQLException {
         Statement consulta = null;
@@ -153,12 +154,12 @@ public class OdontologoDAOH2 implements IDao<Odontologo> {
 
             while (resultados.next()){
                 int NumMatri = resultados.getInt(1);
-                String Nombre = resultados.getString(2);
-                String Apellido = resultados.getString(3);
-                String User = resultados.getString(4);
-                String Password = resultados.getString(5);
-
-                Odontologo odontologo = new Odontologo(User,Password,Nombre, Apellido, NumMatri);
+                String role = resultados.getString(2);
+                String user = resultados.getString(3);
+                String password = resultados.getString(4);
+                String nombre = resultados.getString(5);
+                String apellido = resultados.getString(6);
+                Odontologo odontologo = new Odontologo(role,user,password,nombre, apellido, NumMatri);
                 logger.info("Se trajo un odontologo: " + odontologo);
                 ListaOdontologos.add(odontologo);
             }

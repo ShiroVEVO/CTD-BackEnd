@@ -511,3 +511,219 @@ INSERT INTO PACIENTE VALUES(?,?,?,?,?,?,?) [23505-214]
 [2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=145, fechaAlta=10/10/1010}
 [2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
 [2022-12-02 13:16:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='PassP2', nombre='paciente', apellido='gonzalez', domicilio='Un domicilio', DNI=65465465, fechaAlta=10/10/1010}
+[2022-12-03 11:22:21] [ERROR] [PacienteDAOH2:42] Se presento un problema al crear la tabla: 
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "this.conexion.conn" is null
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.PacienteDAOH2.CrearTabla(PacienteDAOH2.java:37)
+	at AdrianOlmos.ProyectoFinalBack.Servicio.PacienteServicio.crearTabla(PacienteServicio.java:20)
+	at AdrianOlmos.ProyectoFinalBack.PacienteDAOH2Test.crearTabla(PacienteDAOH2Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-12-03 11:22:31] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:24:09] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:24:09] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:24:09] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP2', password='passP2', nombre='Juanito', apellido='rodilla', domicilio='Calle 123 numero 123', DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-03 11:24:09] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP3', password='passP3', nombre='Marcelo', apellido='suckma', domicilio='Streetway to heaven', DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP2', password='passP2', nombre='Juanito', apellido='rodilla', domicilio='Calle 123 numero 123', DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP3', password='passP3', nombre='Marcelo', apellido='suckma', domicilio='Streetway to heaven', DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP2', password='passP2', nombre='Juanito', apellido='rodilla', domicilio='Calle 123 numero 123', DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-03 11:24:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{user='userP3', password='passP3', nombre='Marcelo', apellido='suckma', domicilio='Streetway to heaven', DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-03 11:27:08] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:27:08] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:27:08] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP2', password='passP2', nombre='Juanito', apellido='rodilla', domicilio='Calle 123 numero 123', DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-03 11:27:08] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP3', password='passP3', nombre='Marcelo', apellido='suckma', domicilio='Streetway to heaven', DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-03 11:27:08] [INFO ] [PacienteDAOH2:117] Se elimino el paciente con DNI: 20200
+[2022-12-03 11:28:07] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:28:07] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:28:07] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userX', password='passX', nombre='Actualizado', apellido='Actualizado', domicilio='P sherman calle ACTUALIZADO', DNI=99999, fechaAlta=X/XXX/XXXX}
+[2022-12-03 11:28:07] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 99999 a Paciente{user='userX', password='passX', nombre='Actualizado', apellido='Actualizado', domicilio='P sherman calle ACTUALIZADO', DNI=99999, fechaAlta=X/XXX/XXXX}
+[2022-12-03 11:29:21] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:29:21] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:29:21] [ERROR] [PacienteDAOH2:100] No se pudo guardar el paciente, 
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.PACIENTE(DNI) ( /* key:0 */ 10100, 'ROLE_USER', 'userP1', 'passP1', 'Dolores', 'cadera', 'P sherman calle wallaby 42 sydney', '8/nov/2022')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.PACIENTE(DNI) ( /* key:0 */ 10100, 'ROLE_USER', 'userP1', 'passP1', 'Dolores', 'cadera', 'P sherman calle wallaby 42 sydney', '8/nov/2022')"; SQL statement:
+INSERT INTO PACIENTE VALUES(?,?,?,?,?,?,?,?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:120)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.dml.DataChangeStatement.update(DataChangeStatement.java:74)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.PacienteDAOH2.agregar(PacienteDAOH2.java:97)
+	at AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones.PacienteDAOH2.agregar(PacienteDAOH2.java:17)
+	at AdrianOlmos.ProyectoFinalBack.Servicio.PacienteServicio.guardarPaciente(PacienteServicio.java:28)
+	at AdrianOlmos.ProyectoFinalBack.PacienteDAOH2Test.actualizarPaciente(PacienteDAOH2Test.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2022-12-03 11:29:21] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 10100 a Paciente{user='userX', password='passX', nombre='Actualizado', apellido='Actualizado', domicilio='P sherman calle ACTUALIZADO', DNI=10100, fechaAlta=X/XXX/XXXX}
+[2022-12-03 11:29:34] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:29:35] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:29:35] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 10100 a Paciente{user='userX', password='passX', nombre='Actualizado', apellido='Actualizado', domicilio='P sherman calle ACTUALIZADO', DNI=10100, fechaAlta=X/XXX/XXXX}
+[2022-12-03 11:30:28] [INFO ] [PacienteDAOH2:39] Se creó la tabla
+[2022-12-03 11:30:28] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP1', password='passP1', nombre='Dolores', apellido='cadera', domicilio='P sherman calle wallaby 42 sydney', DNI=10100, fechaAlta=8/nov/2022}
+[2022-12-03 11:30:28] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP2', password='passP2', nombre='Juanito', apellido='rodilla', domicilio='Calle 123 numero 123', DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-03 11:30:28] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{user='userP3', password='passP3', nombre='Marcelo', apellido='suckma', domicilio='Streetway to heaven', DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-03 11:30:28] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{user='userP2', password='passP2', nombre='Juanito', apellido='rodilla', domicilio='Calle 123 numero 123', DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-03 11:31:21] [INFO ] [OdontologoDAOH2:39] Se creó la tabla
+[2022-12-03 11:31:21] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-03 11:32:15] [INFO ] [OdontologoDAOH2:39] Se creó la tabla
+[2022-12-03 11:32:15] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-03 11:32:15] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-03 11:32:15] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-03 11:32:56] [INFO ] [OdontologoDAOH2:39] Se creó la tabla
+[2022-12-03 11:32:56] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-03 11:32:56] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-03 11:32:56] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-03 11:32:56] [INFO ] [OdontologoDAOH2:112] Se eliminó el odontologo con matricula: 2
+[2022-12-03 11:33:53] [INFO ] [OdontologoDAOH2:39] Se creó la tabla
+[2022-12-03 11:33:53] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-03 11:33:53] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 2 a Odontologo{user='userX', password='XXX', nombre='Actualizado', apellido='Actualizado', matricula=2}
+[2022-12-03 11:34:25] [INFO ] [OdontologoDAOH2:39] Se creó la tabla
+[2022-12-03 11:34:25] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user1', password='pass1', nombre='Pablo', apellido='cadenas', matricula=1}
+[2022-12-03 11:34:25] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user2', password='pass2', nombre='Pedro', apellido='naranjas', matricula=2}
+[2022-12-03 11:34:25] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{user='user3', password='pass3', nombre='Armando', apellido='Fierros', matricula=3}
+[2022-12-03 11:34:25] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2

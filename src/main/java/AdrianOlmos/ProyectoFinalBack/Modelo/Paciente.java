@@ -9,8 +9,8 @@ public class Paciente extends Usuario{
     public String domicilio;
     public String fechaAlta;
 
-    public Paciente(String u, String p, String n, String a,String d, int dni, String fa) {
-        super(u, p, n, a);
+    public Paciente(String r, String u, String p, String n, String a,String d, int dni, String fa) {
+        super(r, u, p, n, a);
         this.domicilio = d;
         this.DNI = dni;
         this.fechaAlta = fa;
@@ -42,18 +42,20 @@ public class Paciente extends Usuario{
         this.fechaAlta = fechaAlta;
     }
 
+
     //---------------------------------TO STRING --------------------------------
 
     @Override
     public String toString() {
         return "Paciente{" +
-                "user='" + this.getUser() + '\'' +
-                ", password='" + this.getPassword() + '\'' +
-                ", nombre='" + this.getNombre() + '\'' +
-                ", apellido='" + this.getApellido() + '\'' +
-                ", domicilio='" + domicilio + '\'' +
-                ", DNI=" + DNI +
-                ", fechaAlta=" + fechaAlta +
+                "role='" + this.getROLE() +
+                ", user='" + this.getUser() +
+                ", password='" + this.getPassword() +
+                ", nombre='" + this.getNombre() +
+                ", apellido='" + this.getApellido() +
+                ", domicilio='" + this.getDomicilio() +
+                ", DNI=" + this.getDNI() +
+                ", fechaAlta=" + this.getFechaAlta() +
                 '}';
     }
 }

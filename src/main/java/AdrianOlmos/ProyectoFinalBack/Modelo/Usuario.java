@@ -1,12 +1,14 @@
 package AdrianOlmos.ProyectoFinalBack.Modelo;
 
 public abstract class Usuario {
+    public final String ROLE;
     public String user;
     public String password;
     public String nombre;
     public String apellido;
 
-    public Usuario(String u, String p, String n, String a){
+    public Usuario(String r, String u, String p, String n, String a){
+        this.ROLE = r;
         this.user = u;
         this.password = p;
         this.nombre = n;
@@ -19,6 +21,10 @@ public abstract class Usuario {
     }
 
     //-------------------------------GETTERS & SETTERS---------------------------
+    public String getROLE() {
+        return ROLE;
+    }
+
     public String getUser() {
         return user;
     }
@@ -50,4 +56,5 @@ public abstract class Usuario {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
 }
