@@ -19,7 +19,7 @@ public class PacienteControlador {
         this.pacienteService = pacienteService;
     }
 
-    @GetMapping(value="/todo")
+    @GetMapping
     public List<Paciente> listarPacientes() throws SQLException {
         return pacienteService.listarPacientes();
     }

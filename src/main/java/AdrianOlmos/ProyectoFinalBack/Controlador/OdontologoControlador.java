@@ -21,23 +21,43 @@ public class OdontologoControlador {
         this.odontologoService = odontologoService;
     }
 
-    @GetMapping(value="/todo")
-    public List<Odontologo> listarOdontologos() throws SQLException {
-        return odontologoService.listarOdontologos();
-    }
+    @GetMapping
+    public ResponseEntity<List<Odontologo>> listarOdontologos() throws SQLException{
+        ResponseEntity response;
+        if(odontologoService.listarOdontologos() == null){
+            response = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else{
+            response = new ResponseEntity(odontologoService.listarOdontologos(),HttpStatus.OK);
+        }
+        return response;
 
-    @PostMapping("/guardar")
-    public Odontologo guardarOdontologo(@RequestBody Odontologo odontologo) throws SQLException {
-        return odontologoService.guardarOdontologo(odontologo);
     }
 
     @GetMapping("/{id}")
-    public Odontologo buscarOdontologo(@PathVariable("id") Integer id) throws SQLException {
-        return (Odontologo) odontologoService.ListarOdontologo(id);
+    public ResponseEntity buscarOdontologo(@PathVariable("id") Integer id) throws SQLException {
+        ResponseEntity response = null;
+        if(odontologoService.ListarOdontologo(id) == null){
+            response = new ResponseEntity(HttpStatus.NOT_FOUND);
+        }else{
+            response = new ResponseEntity(odontologoService.ListarOdontologo(id),HttpStatus.OK);
+        }
+        return response;
     }
+
+    @PostMapping("/guardar")
+    public ResponseEntity guardarOdontologo(@RequestBody Odontologo odontologo) throws SQLException {
+        ResponseEntity response;
+        if(odontologoService.ListarOdontologo(odontologo.getMatricula()) != null){
+            response = new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+        }else{
+            response = new ResponseEntity(odontologoService.guardarOdontologo(odontologo),HttpStatus.OK);
+        }
+        return response;
+    }
+
     @DeleteMapping("/borrar/{id}")
     public ResponseEntity borrarOdontologo(@PathVariable("id") Integer id) throws SQLException {
-        ResponseEntity response = null;
+        ResponseEntity response;
         if(odontologoService.ListarOdontologo(id) == null){
             response = new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }else{
@@ -46,6 +66,7 @@ public class OdontologoControlador {
         }
         return response;
     }
+
     @PutMapping("/actualizar")
     public ResponseEntity<Odontologo> actualizarOdontologo(@RequestBody Odontologo odontologo) throws SQLException {
         ResponseEntity response = null;
