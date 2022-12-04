@@ -70,8 +70,9 @@ public class OdontologoControlador {
     @PutMapping("/actualizar")
     public ResponseEntity<Odontologo> actualizarOdontologo(@RequestBody Odontologo odontologo) throws SQLException {
         ResponseEntity response = null;
+        System.out.println(odontologo);
         if(odontologoService.ListarOdontologo(odontologo.getMatricula()) == null){
-            response = new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            response = new ResponseEntity<>(HttpStatus.I_AM_A_TEAPOT);
         }else{
             response = new ResponseEntity(odontologoService.actualizarOdontologo(odontologo), HttpStatus.OK);
         }

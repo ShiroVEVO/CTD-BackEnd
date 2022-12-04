@@ -3622,3 +3622,1067 @@ INSERT INTO PACIENTE VALUES(?,?,?,?,?,?,?,?) [23505-214]
 [2022-12-04 14:51:18] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
 [2022-12-04 14:51:24] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
 [2022-12-04 14:51:24] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:54:46] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:54:46] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:54:46] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:54:54] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:54:54] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:55:36] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:55:36] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:55:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:55:42] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 4
+[2022-12-04 14:55:42] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 4
+[2022-12-04 14:56:27] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 14:56:27] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:56:27] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 14:56:27] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:56:27] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:56:27] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:56:27] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:56:27] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:56:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:56:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:56:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:56:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:56:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:56:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:57:36] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:57:36] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:57:36] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:57:41] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:57:41] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:58:57] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:58:57] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 14:58:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 14:59:05] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:59:05] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:59:10] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 14:59:10] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:00:08] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:00:08] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:00:17] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:00:17] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:00:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:00:20] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:00:20] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:00:27] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:00:27] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:03:01] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:03:01] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:03:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:03:02] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:03:02] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:03:11] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:03:11] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:04:17] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:04:17] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:04:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:04:19] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:04:19] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:04:50] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:04:50] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:04:50] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:04:52] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:04:52] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:04:54] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:04:54] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:06:16] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:06:16] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:06:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:06:17] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:06:17] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:07:10] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:07:10] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:07:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:07:12] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:07:12] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:11:35] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:11:35] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:11:35] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:12:14] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:12:14] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:12:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:13:01] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:13:01] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:13:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:13:03] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:13:03] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:16:13] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:16:13] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:16:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:17:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:17:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:17:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:17:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:17:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:17:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:17:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:17:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:17:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:17:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:17:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:17:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:17:48] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:17:48] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:17:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:17:49] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:17:49] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:18:53] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:18:53] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:18:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:18:55] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:18:55] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:19:25] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:19:25] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:19:25] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:19:27] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:19:27] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:21:23] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:21:23] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:21:23] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:21:25] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:21:25] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:24:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:24:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:24:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:24:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:24:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:25:05] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:25:05] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:25:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:25:07] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:25:07] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 15:25:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:25:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:25:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:25:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 4
+[2022-12-04 15:25:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 4
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:26:16] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:26:16] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:26:16] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:26:17] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:26:17] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:27:20] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:27:20] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:27:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:27:22] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:27:22] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:27:49] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:27:49] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:27:49] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:27:55] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:27:55] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:30:05] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:30:05] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=6}
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:30:05] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:30:13] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:30:13] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 6 a Odontologo{role='null, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:31:15] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:31:15] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:31:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:31:52] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:31:52] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:31:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:31:54] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:31:54] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:32:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:32:04] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 6 a Odontologo{role='null, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:33:09] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:33:09] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:33:09] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='contra, password='adrian, nombre='olmos, apellido='null, matricula=6}
+[2022-12-04 15:33:11] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:33:11] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:33:23] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:33:23] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 6 a Odontologo{role='null, user='ACTUALIZADO, password='TUPAPA, nombre='SIUUUU, apellido='PORFINVOYALLORAR, matricula=6}
+[2022-12-04 15:33:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:33:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='ACTUALIZADO, password='TUPAPA, nombre='SIUUUU, apellido='PORFINVOYALLORAR, matricula=6}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:33:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='ACTUALIZADO, password='TUPAPA, nombre='SIUUUU, apellido='PORFINVOYALLORAR, matricula=6}
+[2022-12-04 15:33:58] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:33:58] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='ACTUALIZADO, password='TUPAPA, nombre='SIUUUU, apellido='PORFINVOYALLORAR, matricula=6}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:33:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='ACTUALIZADO, password='TUPAPA, nombre='SIUUUU, apellido='PORFINVOYALLORAR, matricula=6}
+[2022-12-04 15:34:00] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:34:00] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:34:16] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:34:16] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 6 a Odontologo{role='null, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:35:21] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:35:21] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=5}
+[2022-12-04 15:35:21] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:35:24] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:35:24] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:35:26] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:35:26] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:35:45] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:35:45] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:35:45] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='null, user='dinosauriodestroyer, password='megustanlosdinos, nombre='tyrano, apellido='rex, matricula=5}
+[2022-12-04 15:35:45] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='null, user='dinosauriodestroyer, password='megustanlosdinos, nombre='tyrano, apellido='rex, matricula=5}
+[2022-12-04 15:38:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:38:02] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='dinosauriodestroyer, password='megustanlosdinos, nombre='tyrano, apellido='rex, matricula=5}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='dinosauriodestroyer, password='megustanlosdinos, nombre='tyrano, apellido='rex, matricula=5}
+[2022-12-04 15:38:02] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:38:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:38:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:38:18] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:38:18] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='null, user='wilsonx, password='pasw, nombre='wilson, apellido='xeno, matricula=5}
+[2022-12-04 15:40:05] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:40:05] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='wilsonx, password='pasw, nombre='wilson, apellido='xeno, matricula=5}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='wilsonx, password='pasw, nombre='wilson, apellido='xeno, matricula=5}
+[2022-12-04 15:40:05] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:40:07] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:40:07] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:40:13] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:40:13] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='null, user='xxxx, password='xxxx, nombre='xxxxx, apellido='xxxxx, matricula=5}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:41:14] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:41:14] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='xxxx, password='xxxx, nombre='xxxxx, apellido='xxxxx, matricula=5}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='xxxx, password='xxxx, nombre='xxxxx, apellido='xxxxx, matricula=5}
+[2022-12-04 15:41:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:41:16] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:41:16] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:41:24] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:41:24] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='null, user='yyyyy, password='yyyyy, nombre='yyyyyy, apellido='yyyyy, matricula=5}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:41:58] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:41:58] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='yyyyy, password='yyyyy, nombre='yyyyyy, apellido='yyyyy, matricula=5}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='yyyyy, password='yyyyy, nombre='yyyyyy, apellido='yyyyy, matricula=5}
+[2022-12-04 15:41:58] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:42:00] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:42:00] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:42:05] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:42:05] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='null, user='xx, password='xxxx, nombre='xxxxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:43:17] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:43:17] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='xx, password='xxxx, nombre='xxxxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='xx, password='xxxx, nombre='xxxxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:43:17] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:43:19] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:43:19] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:43:24] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:43:24] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='zz, password='zzz, nombre='zzz, apellido='zz, matricula=5}
+[2022-12-04 15:45:24] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:45:24] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='zz, password='zzz, nombre='zzz, apellido='zz, matricula=5}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='zz, password='zzz, nombre='zzz, apellido='zz, matricula=5}
+[2022-12-04 15:45:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:45:26] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:45:26] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:45:31] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:45:31] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='xxx, password='xxx, nombre='xxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:45:55] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:45:55] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:45:55] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:45:55] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:45:55] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:45:55] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='xxx, password='xxx, nombre='xxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:45:55] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:45:56] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:45:56] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:45:56] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:45:56] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='xxx, password='xxx, nombre='xxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:45:56] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:45:57] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:45:57] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:46:00] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:46:00] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='yyy, password='yyyy, nombre='yyy, apellido='yy, matricula=5}
+[2022-12-04 15:47:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:47:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='yyy, password='yyyy, nombre='yyy, apellido='yy, matricula=5}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='yyy, password='yyyy, nombre='yyy, apellido='yy, matricula=5}
+[2022-12-04 15:47:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:47:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:47:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:47:42] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:47:42] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='shiro, password='contraseña, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:47:47] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:47:47] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='shiro, password='contraseña, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:48:08] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:48:08] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiro, password='contraseña, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiro, password='contraseña, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:48:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:48:09] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:48:09] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:48:14] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:48:15] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='x, password='xx, nombre='xxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:48:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:48:28] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:48:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:48:28] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:48:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:48:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='xx, nombre='xxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:48:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:48:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:48:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:48:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:48:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='xx, nombre='xxx, apellido='xxxx, matricula=5}
+[2022-12-04 15:48:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:48:30] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:48:30] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:48:35] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:48:35] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='y, password='yy, nombre='yyy, apellido='yyyy, matricula=5}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:49:28] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:49:28] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='y, password='yy, nombre='yyy, apellido='yyyy, matricula=5}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='y, password='yy, nombre='yyy, apellido='yyyy, matricula=5}
+[2022-12-04 15:49:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:49:32] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:49:32] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:49:49] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:49:49] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='funcionou, password='funcionop, nombre='funcionon, apellido='funcionoa, matricula=5}
+[2022-12-04 15:50:29] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:50:29] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='funcionou, password='funcionop, nombre='funcionon, apellido='funcionoa, matricula=5}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='funcionou, password='funcionop, nombre='funcionon, apellido='funcionoa, matricula=5}
+[2022-12-04 15:50:29] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:50:31] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:50:31] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:50:45] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:50:45] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='claro, password='que, nombre='funciono, apellido='xd, matricula=5}
+[2022-12-04 15:51:11] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:51:11] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='claro, password='que, nombre='funciono, apellido='xd, matricula=5}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='claro, password='que, nombre='funciono, apellido='xd, matricula=5}
+[2022-12-04 15:51:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:51:20] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:51:20] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='claro, password='que, nombre='funciono, apellido='xd, matricula=5}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='claro, password='que, nombre='funciono, apellido='xd, matricula=5}
+[2022-12-04 15:51:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:51:21] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:51:21] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:51:27] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:51:27] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='a, password='aa, nombre='bb, apellido='ccc, matricula=5}
+[2022-12-04 15:52:01] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:52:01] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='a, password='aa, nombre='bb, apellido='ccc, matricula=5}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='a, password='aa, nombre='bb, apellido='ccc, matricula=5}
+[2022-12-04 15:52:01] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:52:03] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:52:03] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:52:11] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:52:11] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='oculta, password='ocultapass, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:54:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:54:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='oculta, password='ocultapass, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='oculta, password='ocultapass, nombre='adrian, apellido='olmos, matricula=5}
+[2022-12-04 15:54:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:54:35] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:54:35] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:54:47] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 15:54:47] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:55:57] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:55:57] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=2}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:55:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:112] Se eliminó el odontologo con matricula: 2
+[2022-12-04 15:56:00] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:00] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='shiroVEVO, password='contraseña, nombre='adrian, apellido='olmos, matricula=6}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 6
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:112] Se eliminó el odontologo con matricula: 6
+[2022-12-04 15:56:03] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:03] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=4}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 4
+[2022-12-04 15:56:03] [INFO ] [OdontologoDAOH2:112] Se eliminó el odontologo con matricula: 4
+[2022-12-04 15:56:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:04] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:56:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:04] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:56:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:08] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP2, password='passP2, nombre='Juanito, apellido='rodilla, domicilio='Calle 123 numero 123, DNI=20200, fechaAlta=9/nov/2022}
+[2022-12-04 15:56:08] [INFO ] [PacienteDAOH2:117] Se elimino el paciente con DNI: 20200
+[2022-12-04 15:56:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:08] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:56:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:56:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:56:08] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:59:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:59:57] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 15:59:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 15:59:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 15:59:57] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:15:38] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:17:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:17:20] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:17:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:17:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:17:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:18:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:18:24] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:18:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:18:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:18:24] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:19:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:19:11] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:19:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:19:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:19:11] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:20:38] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:20:38] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:20:38] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:20:38] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:20:38] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:22:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:22:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:22:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:22:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:22:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:23:36] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 16:23:36] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 16:24:32] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:24:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:24:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:24:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:24:32] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:24:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:24:53] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:24:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:24:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:24:53] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:24:55] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:26:31] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:26:31] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:26:31] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:26:31] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:26:31] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:26:35] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:27:03] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:27:03] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 30300 a Paciente{role='ROLE_USER, user='marcelox, password='agachelox, nombre='Marcelo, apellido='agachateyconocelo, domicilio='calle 32, DNI=30300, fechaAlta=4/dic/2022}
+[2022-12-04 16:28:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:28:04] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='marcelox, password='agachelox, nombre='Marcelo, apellido='agachateyconocelo, domicilio='calle 32, DNI=30300, fechaAlta=4/dic/2022}
+[2022-12-04 16:28:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:28:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:28:04] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:28:12] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='marcelox, password='agachelox, nombre='Marcelo, apellido='agachateyconocelo, domicilio='calle 32, DNI=30300, fechaAlta=4/dic/2022}
+[2022-12-04 16:28:34] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='marcelox, password='agachelox, nombre='Marcelo, apellido='agachateyconocelo, domicilio='calle 32, DNI=30300, fechaAlta=4/dic/2022}
+[2022-12-04 16:28:34] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 30300 a Paciente{role='ROLE_USER, user='actualizado, password='actualizado, nombre='actualizado, apellido='actualizado, domicilio='actualizado, DNI=30300, fechaAlta=4/10/actualizado}
+[2022-12-04 16:28:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:28:52] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='actualizado, password='actualizado, nombre='actualizado, apellido='actualizado, domicilio='actualizado, DNI=30300, fechaAlta=4/10/actualizado}
+[2022-12-04 16:28:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:28:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:28:52] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:28:56] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='actualizado, password='actualizado, nombre='actualizado, apellido='actualizado, domicilio='actualizado, DNI=30300, fechaAlta=4/10/actualizado}
+[2022-12-04 16:29:06] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='actualizado, password='actualizado, nombre='actualizado, apellido='actualizado, domicilio='actualizado, DNI=30300, fechaAlta=4/10/actualizado}
+[2022-12-04 16:29:06] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 30300 a Paciente{role='ROLE_USER, user='x, password='y, nombre='z, apellido='w, domicilio='x1, DNI=30300, fechaAlta=x2}
+[2022-12-04 16:29:18] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='z, apellido='w, domicilio='x1, DNI=30300, fechaAlta=x2}
+[2022-12-04 16:29:18] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:29:18] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:29:18] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:29:18] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:29:19] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='z, apellido='w, domicilio='x1, DNI=30300, fechaAlta=x2}
+[2022-12-04 16:29:19] [INFO ] [PacienteDAOH2:117] Se elimino el paciente con DNI: 30300
+[2022-12-04 16:29:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:29:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:29:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:29:20] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:29:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:29:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:29:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='user999, password='pass999, nombre='9999, apellido='9999, matricula=3}
+[2022-12-04 16:29:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:29:29] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 16:29:29] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 16:29:34] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 3
+[2022-12-04 16:29:34] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 3 a Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:30:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:30:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:30:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:30:28] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='gato, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:30:32] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 16:30:32] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 16:30:38] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 16:30:38] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 5 a Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:31:23] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=10100, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:29] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:32] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:36] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=40400, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:41] [INFO ] [PacienteDAOH2:98] Se guardo el paciente:Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:43] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:31:43] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=10100, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:43] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:31:43] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:43] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:43] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=40400, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:43] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:31:43] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:31:43] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:31:59] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:31:59] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:31:59] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:31:59] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:14] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:20] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:24] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:29] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:31] [INFO ] [OdontologoDAOH2:93] Se guardo el odontologo:Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=10100, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=40400, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:33] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:33] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:48] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=10100, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:48] [INFO ] [PacienteDAOH2:117] Se elimino el paciente con DNI: 10100
+[2022-12-04 16:32:48] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:48] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:48] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=40400, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:48] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:48] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:49] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:51] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=30300, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:51] [INFO ] [PacienteDAOH2:117] Se elimino el paciente con DNI: 30300
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:51] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:51] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=40400, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:51] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:32:51] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:32:52] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:03] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:03] [INFO ] [PacienteDAOH2:140] Se actualizo el paciente 20200 a Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:10] [INFO ] [PacienteDAOH2:71] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=40400, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:10] [INFO ] [PacienteDAOH2:117] Se elimino el paciente con DNI: 40400
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:33:10] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:33:10] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='perro, password='perrox, nombre='clara, apellido='ardila, matricula=5}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:33:10] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 5
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:112] Se eliminó el odontologo con matricula: 5
+[2022-12-04 16:33:12] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:12] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:33:12] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:33:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:33:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:33:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:33:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:33:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:00] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:00] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:00] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:01] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:34:01] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:34:15] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:15] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:15] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:43] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:34:43] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:44] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:44] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:44] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:54] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:54] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:34:54] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:35:03] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:35:03] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=1}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=2}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:35:03] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:35:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:35:04] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:35:09] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 1
+[2022-12-04 16:35:09] [INFO ] [OdontologoDAOH2:133] se actualizó el odontologo 1 a Odontologo{role='ROLE_USER, user='a, password='b, nombre='c, apellido='1, matricula=1}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:67] Se trajo el odontologo con matricula: 2
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:112] Se eliminó el odontologo con matricula: 2
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='a, password='b, nombre='c, apellido='1, matricula=1}
+[2022-12-04 16:35:13] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='x, password='y, nombre='<, apellido='1, domicilio='Streetway1, DNI=20200, fechaAlta=10/nov/2022}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:35:13] [INFO ] [PacienteDAOH2:171] Se trajo el paciente: Paciente{role='ROLE_USER, user='userP3, password='passP3, nombre='Marcelo, apellido='suckma, domicilio='Streetway to heaven, DNI=50500, fechaAlta=10/nov/2022}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='a, password='b, nombre='c, apellido='1, matricula=1}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=3}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=6}
+[2022-12-04 16:35:13] [INFO ] [OdontologoDAOH2:163] Se trajo un odontologo: Odontologo{role='ROLE_USER, user='x, password='y, nombre='1, apellido='2, matricula=7}

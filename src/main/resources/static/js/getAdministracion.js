@@ -1,10 +1,8 @@
 window.onload = function(){
 fetch("/odontologo")
 .then(function(response){
-    console.log(response);
     return response.json();})
 .then(function(data){
-    console.log(data);
     let tablaOdontologos = document.querySelector("#BodyTablaOdontologos");
     for(let i = 0; i < data.length; i++){
         tablaOdontologos.innerHTML +=
@@ -47,16 +45,21 @@ fetch("/paciente")
             "<th>" + data[i].apellido + "</th>" +
             "<th>" + data[i].domicilio + "</th>" +
             "<th>" + data[i].fechaAlta + "</th>" +
-            "<th><a href=\"modificarPaciente.html\" class=\"btn btn-primary\">✏</a></th>" +
+            "<th><input type=\"button\" class=\"btn btn-primary btnActualizarPaciente\" id=\"" + data[i].DNI + "\" value=\"✏\"></input></th>" +
             "<th><input type=\"button\" class=\"btn btn-danger btnEliminarPaciente\" id=\"" + data[i].DNI + "\" value=\"❌\"></input></th>" +
         "</tr>";
     }
     let botonesEliminarPacientes = document.querySelectorAll('.btnEliminarPaciente');
     for(let i = 0; i < botonesEliminarPacientes.length; i++){
-        console.log(botonesEliminarPacientes[i]);
         botonesEliminarPacientes[i].addEventListener("click",function(){
             borrarPaciente(botonesEliminarPacientes[i].attributes[2].value);
         });
     }
+    let botonesActualizarPaciente = document.querySelectorAll('.btnActualizarPaciente');
+        for(let i = 0; i < botonesActualizarPaciente.length; i++){
+            botonesActualizarPaciente[i].addEventListener("click",function(){
+                actualizarPaciente(botonesActualizarPaciente[i].attributes[2].value);
+            });
+        }
 })
 }
