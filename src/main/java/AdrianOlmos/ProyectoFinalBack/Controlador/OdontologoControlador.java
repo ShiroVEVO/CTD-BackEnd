@@ -59,10 +59,10 @@ public class OdontologoControlador {
     public ResponseEntity borrarOdontologo(@PathVariable("id") Integer id) throws SQLException {
         ResponseEntity response;
         if(odontologoService.ListarOdontologo(id) == null){
-            response = new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            response = new ResponseEntity<>(HttpStatus.I_AM_A_TEAPOT);
         }else{
             odontologoService.eliminarOdontologo(id);
-            response = new ResponseEntity<>(HttpStatus.NO_CONTENT);
+            response = new ResponseEntity<>(HttpStatus.OK);
         }
         return response;
     }
