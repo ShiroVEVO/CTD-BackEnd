@@ -2,7 +2,6 @@ body{
     background-image: url('../img/backgroundImage.png');
 }
 
-
 .sectionIngreso{
     display: flex;
     flex-wrap:wrap;
@@ -16,6 +15,11 @@ body{
     left: 37%;
     margin-top: 280px;
     box-shadow: 0.3em 0.3em 0.7em rgba(0,0,0,0.2);
+}
+
+#regresar{
+    margin-left:132px;
+    margin-top:10px;
 }
 
 .sectionIngreso button{

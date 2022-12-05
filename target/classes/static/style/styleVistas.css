@@ -23,6 +23,14 @@ header label{
     height: 35px;
     top:3px
 }
+.tituloAgregar{
+    display:flex;
+}
+
+.tituloAgregar a{
+    margin-left: 30px;
+}
+
 .vistaDeGestion{
     margin-top: 45px;
     position: relative;

@@ -1,6 +1,5 @@
 package AdrianOlmos.ProyectoFinalBack.Repositorio.Implementaciones;
 
-import AdrianOlmos.ProyectoFinalBack.Modelo.Odontologo;
 import AdrianOlmos.ProyectoFinalBack.Modelo.Paciente;
 import AdrianOlmos.ProyectoFinalBack.Repositorio.Configuracion.Conexion;
 import AdrianOlmos.ProyectoFinalBack.Repositorio.IDao;
@@ -47,7 +46,7 @@ public class PacienteDAOH2 implements IDao<Paciente> {
     }
     //--------------------------------------------------------------------------------
 
-    //--------------------------------ALTERADO TESTEADO FUNCIONAL------------------------------
+    //--------------------------------TESTEADO FUNCIONAL------------------------------
     @Override
     public Paciente listar(int id) throws SQLException {
         ResultSet resultados = null;
@@ -102,7 +101,7 @@ public class PacienteDAOH2 implements IDao<Paciente> {
             consulta.close();
             conexion.desconectar();
         }
-        return null;
+        return paciente;
     }
     //--------------------------------------------------------------------------------
 

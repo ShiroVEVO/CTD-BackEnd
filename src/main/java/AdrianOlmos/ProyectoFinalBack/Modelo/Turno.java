@@ -2,13 +2,17 @@ package AdrianOlmos.ProyectoFinalBack.Modelo;
 
 public class Turno {
     public int numTurno;
-    public Odontologo ondontologo;
-    public Paciente paciente;
+    public String hora;
+    public String fecha;
+    public int matricula;
+    public int DNI;
 
-    public Turno(int numTurno, Odontologo ondontologo, Paciente paciente) {
+    public Turno(int numTurno, String hora, String fecha, int matricula, int dni) {
         this.numTurno = numTurno;
-        this.ondontologo = ondontologo;
-        this.paciente = paciente;
+        this.hora = hora;
+        this.fecha = fecha;
+        this.matricula = matricula;
+        this.DNI = dni;
     }
 
     //-------------------------------GETTERS & SETTERS---------------------------
@@ -21,21 +25,38 @@ public class Turno {
         this.numTurno = numTurno;
     }
 
-    public Odontologo getOndontologo() {
-        return ondontologo;
+    public String getHora() {
+        return hora;
     }
 
-    public void setOndontologo(Odontologo ondontologo) {
-        this.ondontologo = ondontologo;
+    public void setHora(String hora) {
+        this.hora = hora;
     }
 
-    public Paciente getPaciente() {
-        return paciente;
+    public String getFecha() {
+        return fecha;
     }
 
-    public void setPaciente(Paciente paciente) {
-        this.paciente = paciente;
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
     }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public int getDNI() {
+        return DNI;
+    }
+
+    public void setDNI(int DNI) {
+        this.DNI = DNI;
+    }
+
 
     //---------------------------------TO STRING --------------------------------
 
@@ -43,8 +64,10 @@ public class Turno {
     public String toString() {
         return "Turno{" +
                 "numTurno=" + this.getNumTurno() +
-                ", ondontologo=" + this.getOndontologo() +
-                ", paciente=" + this.getPaciente() +
+                ", hora=" + this.getHora() +
+                ", fecha=" + this.getFecha() +
+                ", matricula=" + this.getMatricula() +
+                ", DNI=" + this.getDNI() +
                 '}';
     }
 }

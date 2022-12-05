@@ -30,7 +30,6 @@ public class OdontologoControlador {
             response = new ResponseEntity(odontologoService.listarOdontologos(),HttpStatus.OK);
         }
         return response;
-
     }
 
     @GetMapping("/{id}")

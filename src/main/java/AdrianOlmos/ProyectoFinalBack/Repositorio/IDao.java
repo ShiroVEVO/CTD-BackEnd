@@ -1,6 +1,8 @@
 package AdrianOlmos.ProyectoFinalBack.Repositorio;
 
 import AdrianOlmos.ProyectoFinalBack.Modelo.Odontologo;
+import AdrianOlmos.ProyectoFinalBack.Modelo.Turno;
+import AdrianOlmos.ProyectoFinalBack.Modelo.TurnoDTO;
 
 import java.sql.SQLException;
 import java.util.List;
